@@ -140,8 +140,8 @@ curl -X 'POST' \
 
 ```json
 {
-  "email": "john@example.com",
-  "password": "securepass"
+  "email": "ali@gmail.com",
+  "password": "AliAwan"
 }
 ```
 
