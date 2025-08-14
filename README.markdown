@@ -30,7 +30,7 @@ Cplus_Task/
 ---
 
 ## ⚙️ Architecture Diagram
-![Architecture Diagram](images/ANNPNG.PNG)
+![Architecture Diagram](images/AANPNG.PNG)
 
 ---
 
