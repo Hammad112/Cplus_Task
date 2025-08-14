@@ -66,11 +66,11 @@ Edit `config.json`:
 ```json
 {
   "db_user": "postgres",
-  "db_password": "yourpassword",
+  "db_password": "H****d",
   "db_host": "localhost",
   "db_port": 5432,
-  "db_name": "Cplus",
-  "weather_api_key": "your_default_api_key"
+  "db_name": "postgres",
+  "weather_api_key": "***********"
 }
 ```
 
