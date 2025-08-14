@@ -75,6 +75,7 @@ Edit `config.json`:
 ```
 WEATHER_API_KEY=your_openweather_api_key
 ```
+API Fetch Link: https://openweathermap.org/api
 
 6️⃣ **Create PostgreSQL database**
 
