@@ -103,11 +103,11 @@ uvicorn app.main:app --reload
 
 ```json
 {
-  "firstname": "John",
-  "lastname": "Doe",
-  "phone_number": "9876543210",
-  "email": "john@example.com",
-  "password": "securepass"
+  "firstname": "Muhammad",
+  "lastname": "Ahmed",
+  "phone_number": "03348500674",
+  "email": "ahmed@gmail.com",
+  "password": "Hammad"
 }
 ```
 
