@@ -83,7 +83,7 @@ WEATHER_API_KEY=your_openweather_api_key
 6️⃣ **Create PostgreSQL database**
 
 ```sql
-CREATE DATABASE "Cplus";
+CREATE DATABASE "postgres";
 ```
 
 7️⃣ **Run the app**
@@ -121,9 +121,17 @@ uvicorn app.main:app --reload
 #### cURL
 
 ```bash
-curl -X POST "http://127.0.0.1:8000/users/" \
--H "Content-Type: application/json" \
--d '{"firstname":"John","lastname":"Doe","phone_number":"9876543210","email":"john@example.com","password":"securepass"}'
+curl -X 'POST' \
+  'http://127.0.0.1:8000/users/' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "firstname": "Ali",
+  "lastname": "Awan",
+  "phone_number": "03155583363",
+  "email": "ali@gmail.com",
+  "password": "AliAwan"
+}'
 ```
 
 ---
@@ -148,9 +156,14 @@ curl -X POST "http://127.0.0.1:8000/users/" \
 #### cURL
 
 ```bash
-curl -X POST "http://127.0.0.1:8000/login/" \
--H "Content-Type: application/json" \
--d '{"email":"john@example.com","password":"securepass"}'
+curl -X 'POST' \
+  'http://127.0.0.1:8000/login/' \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{
+  "email": "ali@gmail.com",
+  "password": "AliAwan"
+}'
 ```
 
 ---
@@ -162,7 +175,9 @@ curl -X POST "http://127.0.0.1:8000/login/" \
 #### Example Request
 
 ```bash
-curl -X GET "http://127.0.0.1:8000/weather/London"
+curl -X 'GET' \
+  'http://127.0.0.1:8000/weather/Karachi' \
+  -H 'accept: application/json'
 ```
 
 #### Response Example (Image)
@@ -171,19 +186,7 @@ curl -X GET "http://127.0.0.1:8000/weather/London"
 
 ---
 
-## 🛠 Dependencies
 
-```
-fastapi
-uvicorn
-sqlalchemy
-psycopg2-binary
-pydantic
-python-dotenv
-requests
-```
-
----
 
 ## 🚀 Running Tests
 
@@ -194,7 +197,4 @@ Once server is running:
 
 ---
 
-## 📌 Notes
 
-* Passwords are currently stored in plain text — **not secure for production**.
-* For production, implement password hashing (bcrypt) and JWT authentication.
