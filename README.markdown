@@ -182,6 +182,8 @@ curl -X 'GET' \
 
 ---
 
+#### Existing Responsee 
+![table-data](images/tbPNG.PNG)
 
 
 ## 🚀 Running Tests
