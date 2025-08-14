@@ -1,4 +1,4 @@
-# Cplus API (FastAPI + PostgreSQL + Weather API)
+# Cplus TASK (FastAPI + PostgreSQL + Weather API)
 
 This API allows you to:
 - **Sign up users** (store in PostgreSQL table `Cplus`)
