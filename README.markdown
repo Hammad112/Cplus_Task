@@ -112,7 +112,7 @@ uvicorn app.main:app --reload
 
 #### Response Example (Image)
 
-![signup-response](images/sp1.png)
+![signup-response](images/sp1.PNG)
 
 #### cURL
 
