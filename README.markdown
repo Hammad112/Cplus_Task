@@ -147,7 +147,7 @@ curl -X 'POST' \
 
 #### Response Example (Image)
 
-![login-response](images/login-response.png)
+![login-response](images/lg1.png)
 
 #### cURL
 
