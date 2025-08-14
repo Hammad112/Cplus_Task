@@ -27,6 +27,10 @@ Cplus_Task/
 │    │── login-response.png
 │    │── weather-response.png
 ```
+---
+
+## ⚙️ Architecture Diagram
+![Architecture Diagram](images/ANN.PNG)
 
 ---
 
